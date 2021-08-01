@@ -100,7 +100,7 @@ my_list.append("Leny")
 print(my_list)
 print("The new length is: " + (str(len(my_list))))
 
-#נשתמש בinsert אם נרצה להוסיף ערך לרשימה במקום מסוים
+#נשתמש בinsert אם נרצה להוסיף עד 2 ערכים לרשימה במקום מסוים
 # יש להמנע מפעולה זו מכיוון שהיא פוגעת בביצועים
 #נוסף לתא מספר 7 ['hello', 1, 6.6, 'Leny', 55, 7, 'wow', 'net4u', 'Leny']
 my_list.insert(7,'net4u')
