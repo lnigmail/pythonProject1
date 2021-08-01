@@ -15,3 +15,13 @@ print("Youre name is:= " + (a) + "\nYour mail is: " + (b) + "\nYour age is: " + 
 print("\nYoure name is: " + str(a[::-1]) + "\nYour age is: " + str(c*3))
 
 print("\nLeny" in "idan ben dudu yuval shimon yael gal adam shahar yana")
+
+'''
+Youre name is:= Leny
+Your mail is: lni8wallacoil@gmail.com
+your age is: 47
+
+Youre name is: yneL
+Your age is: 141
+False
+'''
