@@ -10,7 +10,6 @@ print(type(new_list))
 new_list2=list()
 print(type(new_list2))
 
-
 #בניית רשימה
 new_list=[2,6.6,"leny",[]]
 print(new_list)
@@ -28,8 +27,6 @@ print(new_list3)
 new_list2 = new_list*2
 print(new_list2)
 
-
-
 #כדי להדפיס תא ספציפי
 new_list=[2,6.6,"leny",[44]]
 print(new_list[0])
@@ -39,8 +36,6 @@ print(new_list[2])
 my_list= [1,2,47,6.6,"Leny shephard"]
 print("My name: " + my_list[4])
 print("My Age is: " + str(my_list[2]))
-
-
 
 #הכרזה על רשימה והמרה
 #ניתן ליצור או לפי השורה העליונה או התחתונה
@@ -111,7 +106,6 @@ print("The new length is: " + (str(len(my_list))))
 #נוסף לתא מספר 7 ['hello', 1, 6.6, 'Leny', 55, 7, 'wow', 'net4u', 'Leny']
 my_list.insert(7,'net4u')
 print(my_list)
-
 
 # ההיפך מפוש - נשתמש בpop בכדי להוציא ערך מסוף הרשימה
 # תמיד כדאי להוציא/להוסיף ערך לסוף הרשימה כדי לא לפגוע בביצועים
