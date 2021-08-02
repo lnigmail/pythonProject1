@@ -1,4 +1,5 @@
-'''write a code that will show the Menu:
+'''
+write a code that will show the Menu:
 Menu:
 1.Insert number and ** it by 3
 2.Insert 4 IPs to a list and print it
