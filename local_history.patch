@@ -1,0 +1,16 @@
+Index: targil5CONDITIONS.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- targil5CONDITIONS.py	(date 1627922783032)
++++ targil5CONDITIONS.py	(date 1627922783032)
+@@ -48,7 +48,7 @@
+      print("good")
+  else:
+      print("bad")
+- if not 9:
++if not 9:
+      pass
+  else:
+      raise Exception("bad")'''
