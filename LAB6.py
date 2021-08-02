@@ -35,9 +35,9 @@ elif (choice=="4"):
     else:
         print("This isn't polindrom!")
 else:
-    print("Insert 1-4 only!...\n")
-#
-# print("It was Enlightening, bye bye...\n")
+    print("\n\nInsert 1-4 only!...\n")
+
+print("It was Enlightening, bye bye...\n")
 
 '''
 Menu:
@@ -50,6 +50,7 @@ Menu:
 
 Enter a number: 3
 The new number is: 27
+It was Enlightening, bye bye...
 
 2
 Enter new IP: 1.1.1.1
@@ -60,6 +61,7 @@ Enter new IP: 4.4.4.4
 The new list:
 --------------------------------------------
 ['1.1.1.1', '2.2.2.2', '3.3.3.3', '4.4.4.4']
+It was Enlightening, bye bye...
 
 3
 Enter a URL: www.google.com
@@ -74,11 +76,14 @@ Enter IP: 9.9.9.9
 The new dns_dict:
 --------------
 {'www.google.com': '8.8.8.8', 'www.youtube.com': '4.4.4.4', 'www.facebook.com': '7.7.7.7', 'www.ynet.co.il': '9.9.9.9'}
+It was Enlightening, bye bye...
 
 4
 Enter a word: anna
 This is polindrom!
+It was Enlightening, bye bye...
 4
 Enter a word: ainshtein
 This isn't polindrom!
+It was Enlightening, bye bye...
 '''
