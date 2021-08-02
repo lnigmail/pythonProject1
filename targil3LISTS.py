@@ -11,12 +11,12 @@ new_list2=list()
 print(type(new_list2))
 
 #בניית רשימה
-new_list=[2,6.6,"leny",[]]
+new_list=[2,6.6,"Dudu",[]]
 print(new_list)
 
 #חיבור רשימות
 new_list2=new_list+[77]
-print(new_list2, 'leny')
+print(new_list2, 'Dudu')
 new_list3=new_list2+new_list
 print(new_list3)
 
@@ -33,7 +33,7 @@ print(new_list[0])
 print(new_list[2])
 
 #הכרזה על רשימה והמרה
-my_list= [1,2,47,6.6,"Leny shephard"]
+my_list= [1,2,47,6.6,"Dudu"]
 print("My name: " + my_list[4])
 print("My Age is: " + str(my_list[2]))
 
@@ -44,7 +44,7 @@ print("My Age is: " + str(my_list[2]))
 my_list1 = []
 my_list2 = list()
 
-my_list= [1,2,47,6.6,"Leny shephard"]
+my_list= [1,2,47,6.6,"Dudu"]
 print("My Age is: " + str(my_list[2]))
 
 #בניית רשימה ממחרוזת
@@ -84,7 +84,7 @@ print(my_list3)
 
 #שימוש בLEN לתאר את אורך הרשימה
 #The length is: 6
-my_list= ["hello",1,6.6,"Leny",55,7]
+my_list= ["hello",1,6.6,"Dudu",55,7]
 print("The length is: " + (str(len(my_list))))
 
 # לא לשכוח גרשיים
@@ -93,16 +93,16 @@ my_str="1234567890123456789"
 print("The length is: " + (str(len(my_str))))
 
 #שימוש בAPPEND בכדי להוסיף ערך לסוף של הרשימה
-#['hello', 1, 6.6, 'Leny', 55, 7, 'wow', 'Leny']
+#['hello', 1, 6.6, 'Dudu', 55, 7, 'wow', 'Dudu']
 #The new length is: 8
 my_list.append("wow")
-my_list.append("Leny")
+my_list.append("Dudu")
 print(my_list)
 print("The new length is: " + (str(len(my_list))))
 
 #נשתמש בinsert אם נרצה להוסיף עד 2 ערכים לרשימה במקום מסוים
 # יש להמנע מפעולה זו מכיוון שהיא פוגעת בביצועים
-#נוסף לתא מספר 7 ['hello', 1, 6.6, 'Leny', 55, 7, 'wow', 'net4u', 'Leny']
+#נוסף לתא מספר 7 ['hello', 1, 6.6, 'Dudu', 55, 7, 'wow', 'net4u', 'Dudu']
 my_list.insert(7,'net4u')
 print(my_list)
 
@@ -113,14 +113,14 @@ print(my_list)
 
 # ההיפך מפוש - נשתמש בpop בכדי להוציא ערך ממיקום ספציפי ברשימה
 # תמיד כדאי להוציא/להוסיף ערך לסוף הרשימה כדי לא לפגוע בביצועים
-#[1, 6.6, 'Leny', 55, 7, 'wow', 'net4u'] תא0 ציין את תחילת הרשימה ולכן המילה "הלו" הראשונה הוסרה
+#[1, 6.6, 'Dudu', 55, 7, 'wow', 'net4u'] תא0 ציין את תחילת הרשימה ולכן המילה "הלו" הראשונה הוסרה
 my_list.pop(0)
 print(my_list)
 
 #נבדוק שערך קיים ברשימה
 #True
-my_list=["gogle", "facebook", "ebay", "apple"]
+my_list=["google", "facebook", "ebay", "apple"]
 print("ebay" in my_list)
 #False
-my_list=["gogle", "facebook", "ebay", "apple"]
+my_list=["google", "facebook", "ebay", "apple"]
 print("net4u" in my_list)

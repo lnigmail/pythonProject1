@@ -10,7 +10,7 @@ print("p1={}, p2={}, p3={}, p4={red}. format(1, 1.0, object(), red='#ff0000")
 print("line 1 \n\n\n now in down 3 lines")
 
 #TAB t\
-#print("def goku(attack):\n\tprint (attack)\n")
+print("def goku(attack):\n\tprint (attack)\n")
 
 #בדיקה עם מחרוזת קיימת בתוך מחרוזת
 print("idan" in "idan hakimi")
