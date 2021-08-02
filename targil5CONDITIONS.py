@@ -48,7 +48,7 @@
      print("good")
  else:
      print("bad")
- if not 9:
+if not 9:
      pass
  else:
      raise Exception("bad")'''
