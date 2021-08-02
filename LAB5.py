@@ -17,7 +17,14 @@ print("The updated number of entries: " + str(len(dict_names)))
 print("\nIs idan in the Dictionary?:")
 print("idan" in str(dict_names))
 
-
+# Dictionary of 5 names & money: {'idan': 10000, 'ben': 20000, 'avi': 30000, 'shimon': 40000, 'ayala': 50000}
+#
+# The sum of 1st & last is: 60000
+# The updated Dictionary: {'idan': 10000, 'ben': 20000, 'avi': 30000, 'shimon': 40000, 'ayala': 50000, 'idanayala': 60000}
+# The updated number of entries: 6
+#
+# Is idan in the Dictionary?:
+# True
 
 
 
