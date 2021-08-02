@@ -17,11 +17,11 @@ print("\nYour name is: " + str(a[::-1]) + "\nYour age is: " + str(c*3))
 print("\nAinshtein" in "idan ben dudu yuval shimon yael gal adam shahar yana")
 
 '''
-Your name is:= Leny
-Your mail is: lni8wallacoil@gmail.com
-your age is: 47
+Your name is: Ainshtein
+Your mail is: Ainshtein@gmail.com
+Your age is: 47
 
-Your name is: yneL
+Your name is: niethsniA
 Your age is: 141
 False
 '''
