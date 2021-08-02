@@ -50,13 +50,3 @@ print("www.google.com" in my_dict.values())
 print("8.8.4.4" in my_dict.values())
 #True (VALUE)
 
-# #בניית מילון
-# my_dict3 = {'int': 0, 'float': 1.0, 'str': '3', 'list': []}
-# my_dict4 = dict(ani='optimus', idan='mustard')
-#
-# #חיבור מילון
-# my_dict5 = dict(my_dict3, **{'cool_number': 77})
-# my_dict6 = my_dict5.update(my_dict4)
-#
-# #שימוש בLEN לתאר את גודל המילון
-# print(len(my_dict1))
