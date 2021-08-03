@@ -62,3 +62,4 @@ elif True is False:
 else:
     print("else")
 
+# http://www.tutorialspoint.com/python/python_basic_operators.htm
