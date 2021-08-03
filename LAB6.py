@@ -32,9 +32,9 @@ elif (choice=="3"):
 elif (choice=="4"):
     word=input("Enter a word: ")
     if (word == word[::-1]):
-        print("This is palindromic!")
+        print("This is Palindromic!")
     else:
-        print("This isn't palindromic!")
+        print("This isn't Palindromic!")
 else:
     print("\n\nInsert 1-4 only!...\n")
 
@@ -84,13 +84,13 @@ It was Enlightening, bye bye...
 
 4
 Enter a word: anna
-This is palindromic!
+This is Palindromic!
 
 It was Enlightening, bye bye...
 
 4
 Enter a word: ainshtein
-This isn't palindromic!
+This isn't Palindromic!
 
 It was Enlightening, bye bye...
 '''
