@@ -4,7 +4,7 @@ Menu:
 1.Insert number and ** it by 3
 2.Insert 4 IPs to a list and print it
 3.Insert 4 entries to a DNS_Dictionary and print it
-4.Check if a string is Palindrome
+4.Check if a string is Palindromic
 
 if the user wont choose 1-4, you will tell him to Insert 1-4 only!
 '''
@@ -12,7 +12,7 @@ if the user wont choose 1-4, you will tell him to Insert 1-4 only!
 from time import sleep
 
 choice=input("Menu:\n----\n1.Insert number and ** it by 3\n2.Insert 4 IPs to print\n3.Insert 4 entries to a "
-             "DNS_Dictionary\n4.Check if a string is Palindrome\n")
+             "DNS_Dictionary\n4.Check if a string is Palindromic\n")
 if(choice=="1"):
     print("The new number is: " + str((int(input("\nEnter a number: ")))**3))
 elif (choice=="2"):
@@ -32,13 +32,13 @@ elif (choice=="3"):
 elif (choice=="4"):
     word=input("Enter a word: ")
     if (word == word[::-1]):
-        print("This is polindrom!")
+        print("This is palindromic!")
     else:
-        print("This isn't polindrom!")
+        print("This isn't palindromic!")
 else:
     print("\n\nInsert 1-4 only!...\n")
 
-print("It was Enlightening, bye bye...\n")
+print("\nIt was Enlightening, bye bye...\n")
 
 '''
 Menu:
@@ -46,11 +46,12 @@ Menu:
 1.Insert number and ** it by 3
 2.Insert 4 IPs to print
 3.Insert 4 entries to a DNS_Dictionary
-4.Check if a string is Palindrome
+4.Check if a string is Palindromic
 1
 
 Enter a number: 3
 The new number is: 27
+
 It was Enlightening, bye bye...
 
 2
@@ -62,6 +63,7 @@ Enter new IP: 4.4.4.4
 The new list:
 --------------------------------------------
 ['1.1.1.1', '2.2.2.2', '3.3.3.3', '4.4.4.4']
+
 It was Enlightening, bye bye...
 
 3
@@ -77,14 +79,16 @@ Enter IP: 9.9.9.9
 The new dns_dict:
 --------------
 {'www.google.com': '8.8.8.8', 'www.youtube.com': '4.4.4.4', 'www.facebook.com': '7.7.7.7', 'www.ynet.co.il': '9.9.9.9'}
+
 It was Enlightening, bye bye...
 
 4
 Enter a word: anna
-This is polindrom!
+This is palindromic!
 It was Enlightening, bye bye...
 4
 Enter a word: ainshtein
-This isn't polindrom!
+This isn't palindromic!
+
 It was Enlightening, bye bye...
 '''
