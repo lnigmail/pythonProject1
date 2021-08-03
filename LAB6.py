@@ -11,7 +11,7 @@ if the user wont choose 1-4, you will tell him to Insert 1-4 only!
 
 from time import sleep
 
-choice=input("Menu:\n----\n1.Insert number and ** it by 3\n2.Insert 4 IPs to print\n3.Insert 4 entries to a "
+choice=input("Menu:\n----\n1.Insert number to ** it by 3\n2.Insert 4 IPs to print\n3.Insert 4 entries for a "
              "DNS_Dictionary\n4.Check if a string is Palindromic\n")
 if(choice=="1"):
     print("The new number is: " + str((int(input("\nEnter a number: ")))**3))
@@ -43,9 +43,9 @@ print("\nIt was Enlightening, bye bye...\n")
 '''
 Menu:
 ----
-1.Insert number and ** it by 3
+1.Insert number to ** it by 3
 2.Insert 4 IPs to print
-3.Insert 4 entries to a DNS_Dictionary
+3.Insert 4 entries for a DNS_Dictionary
 4.Check if a string is Palindromic
 1
 
