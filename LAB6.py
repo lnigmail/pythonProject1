@@ -85,7 +85,9 @@ It was Enlightening, bye bye...
 4
 Enter a word: anna
 This is palindromic!
+
 It was Enlightening, bye bye...
+
 4
 Enter a word: ainshtein
 This isn't palindromic!
