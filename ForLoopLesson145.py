@@ -21,60 +21,58 @@ for x in fruits:
     if x == "banana":
         continue
 for x in range (2, 30, 3):
-    print(x)
+    print(x)'''
+# apple
+# b
+# a
+# n
+# a
+# n
+# a
+# banana
+# b
+# a
+# n
+# a
+# n
+# a
+# cherry
+# b
+# a
+# n
+# a
+# n
+# a
+# app
+# ban
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# 5
+# 6
+# 7
+# 8
+# 9
+# apple
+# banana
+# 2
+# 5
+# 8
+# 11
+# 14
+# 17
+# 20
+# 23
+# 26
+# 29
 
-
-apple
-b
-a
-n
-a
-n
-a
-banana
-b
-a
-n
-a
-n
-a
-cherry
-b
-a
-n
-a
-n
-a
-app
-ban
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-5
-6
-7
-8
-9
-apple
-banana
-2
-5
-8
-11
-14
-17
-20
-23
-26
-29
-'''
 '''
 #The count begins in range 0 - therefore it ends at 10
 for x in range (11):
@@ -103,39 +101,39 @@ for x in range (11):
     10
     wow'''
 '''
-#Determing the conunt fo 
+#Determing the conunt from 1 insted from 0
 for x in range (1, 11):
     print(x)
-    print("wow")
-    1
-    wow
-    2
-    wow
-    3
-    wow
-    4
-    wow
-    5
-    wow
-    6
-    wow
-    7
-    wow
-    8
-    wow
-    9
-    wow
-    10
-    wow'''
+    print("wow")'''
+    # 1
+    # wow
+    # 2
+    # wow
+    # 3
+    # wow
+    # 4
+    # wow
+    # 5
+    # wow
+    # 6
+    # wow
+    # 7
+    # wow
+    # 8
+    # wow
+    # 9
+    # wow
+    # 10
+    # wow
 #printing every [,] in range of length(3) of list_idan
 '''list_idan=["banana", "apple", "mango"]
 for x in range(len(list_idan)):
-    print(list_idan[x])
-    banana
-    apple
-    mango'''
+    print(list_idan[x])'''
+    # banana
+    # apple
+    # mango
 
-#jumps of 2
+#jumps of 2 (אי זוגי)
 """for x in range (1,11,2):
     print (x)
     print ("wow\n")"""
