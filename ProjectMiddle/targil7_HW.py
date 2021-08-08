@@ -24,7 +24,7 @@ print("\nAlwase a pleasure, Bye Bye...")
 
 # Enter a number to convert height to 7 centimeters: 1
 # Enter from Menu:
-# --------
+# ---------------
 # 1.feet
 # 2.inches
 #  2
