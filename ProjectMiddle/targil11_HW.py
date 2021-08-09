@@ -8,6 +8,7 @@ listb="xyz"
 
 list= (listb[:2] + lista[2]),(lista[:2] + listb[2])
 print(list)
-# xyc abz
+#('xyc', 'abz')
 my_string: str =' '.join(list)
 print(my_string)
+# xyc abz
