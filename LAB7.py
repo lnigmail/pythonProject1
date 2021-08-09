@@ -1,14 +1,14 @@
 #LAB7-Cube Project
 from random import randint
 from time import sleep
-print("Welcome to the CUBE THRILL...\n\nEach turn cost 3 NIS\n")
-spend=int(input("Enter the amount of money you wish to burn?\n"))
+print("Welcome to the CUBE THRILL...\n\nEach turn cost 3 NIS (;\n")
+spend=int(input("Enter the amount of money you wish to burn...\n"))
 turns=spend//3
 print("Your change: " + str(spend%3) + " NIS\n")
-print("You have " + str(turns) + " turns left")
+print("You have " + str(turns) + " turns...")
 prize_money=0
 for i in range(turns):
-    print("\n\nRolling the dice for round number " + str(i+1) + "\n----------------------------------\n\n")
+    print("\n\nRolling the dice for round number " + str(i+1) + "\n----------------------------------\n")
     sleep(1)
     print("   (: ")
     sleep(1)
