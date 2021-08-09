@@ -6,5 +6,8 @@ Expected Result : 'xyc abz'''
 lista="abc"
 listb="xyz"
 
-print((listb[:2]+lista[2]), (lista[:2]+listb[2]))
+list= (listb[:2] + lista[2]),(lista[:2] + listb[2])
+print(list)
 # xyc abz
+my_string: str =' '.join(list)
+print(my_string)
