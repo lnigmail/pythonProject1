@@ -10,7 +10,7 @@ from time import sleep
 
 while(True):
 
-    choice=input("Menu:\n----\n1.Printing 100 numbers\n2.Check fibonachi\n3.randint numbers untill we get 12 or the "
+    choice=input("Menu:\n----\n1.Printing 100 numbers\n2.Check fibonacci\n3.randint numbers untill we get 12 or the "
                  "count is of 10 times\n")
 
     if (choice=="1"):
@@ -161,7 +161,7 @@ n
 Menu:
 ----
 1.Printing 100 numbers
-2.Check fibonachi
+2.Check fibonacci
 3.randint numbers untill we get 12 or the count is of 10 times
 2
 Enter a number: 1
@@ -203,7 +203,7 @@ n
 Menu:
 ----
 1.Printing 100 numbers
-2.Check fibonachi
+2.Check fibonacci
 3.randint numbers untill we get 12 or the count is of 10 times
 3
 counter:1  num:2
