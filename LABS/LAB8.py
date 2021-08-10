@@ -1,10 +1,3 @@
-'''
-Menu:
-----
-1.Printing 100 numbers
-2.Check fibonachi
-3.randint numbers untill we get 12 or the count is of 10 times
-'''
 from random import randint
 from time import sleep
 
