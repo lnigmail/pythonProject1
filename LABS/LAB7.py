@@ -37,7 +37,7 @@ for i in range(turns):
             print("1\n")
             sleep(1)
             print("in a hundred...\n")
-            sleep(1)
+            sleep(3)
     elif (cube2==2):
         prize_money=prize_money+40
     elif (cube1==1):
@@ -59,7 +59,7 @@ Welcome to the CUBE THRILL...
 Each turn cost 3 NIS (;
 
 Enter the amount of money you wish to burn...
-10
+13
 Your change: 1 NIS
 
 You have 3 turns...
@@ -132,4 +132,31 @@ Calculating the damage...
           (: 
    (: 
 
-Your prize money is: 1000 NIS'''
+Your prize money is: 1000 NIS
+
+Rolling the dice for round number 4
+----------------------------------
+
+   (: 
+        (: 
+              (: 
+
+cube1: 3
+cube2: 3
+
+U
+
+r
+
+1
+
+in a hundred...
+
+Calculating the damage...
+
+
+                  (: 
+          (: 
+   (: 
+
+Your prize money is: 1100 NIS'''
