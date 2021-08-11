@@ -2,7 +2,7 @@ from random import randint
 
 while(True):
 
-    choice=input("Menu:\n----\n1.Printing 100 numbers\n2.Check fibonacci\n3.randint numbers untill we get 12 or the "
+    choice=input("Menu:\n----\n1.Printing 100 numbers\n2.Check fibonacci\n3.randint numbers until we get 12 or the "
                  "count is of 10 times\n")
 
     if (choice=="1"):
