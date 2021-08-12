@@ -29,5 +29,5 @@ print(ip_list)
 # Enter first ip: 1.1.1.1
 # Enter 2nd ip: 2.2.2.2
 # Enter 3rd ip: 3.3.3.3
-# [this previous line is run over]
+# [this previous line is run over by the next one after it]
 # ['1.1.1.1', '2.2.2.2', '3.3.3.3', '1.1.1.1', '2.2.2.2', '3.3.3.3']
