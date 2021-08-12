@@ -73,13 +73,13 @@ Menu:
 2.Friends list
 3.N AZZERET
 2
-Enter a friend's name: et
+Enter a friend's name: E.T.
 Enter a friend's name: phone
 Enter a friend's name: home
 Enter a friend's name: right
 Enter a friend's name: now
 Enter a new name: et
-et is already in the list!
+E.T. is already in the list!
 
 
 Do you want to exit? yes/no
