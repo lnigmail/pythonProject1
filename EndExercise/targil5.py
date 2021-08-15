@@ -12,5 +12,5 @@ print("Randintegers: " + "\n------------\nnum1: " + str(num1) + "\nnum2: " + str
 if (num1==num2 or num2==num3 or num1==num3):
     sum=num1+num2+num3
     print("\nDue to equal numbers:\n---------------------\n" 
-          "The sum of three given numbers: " + str(sum) + "\n" +
+          "The sum of the three given numbers: " + str(sum) + "\n" +
           "Return three times of their sum: " + str(sum*3))
