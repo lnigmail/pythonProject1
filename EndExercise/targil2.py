@@ -4,6 +4,5 @@ list.
 color_list = ["Red","Green","White" ,"Black"]
 '''
 list=["Red","Green","White" ,"Black"]
-list.pop(2)
-list.pop(1)
-print(list)
+
+print("The first color:" + str(list[0] + "\nThe last color:" + str(list[-1])))
