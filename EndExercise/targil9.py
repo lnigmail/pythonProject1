@@ -1,12 +1,13 @@
 '''
- Write a Python program to convert a byte string to a list of integers
+Write a Python program to convert height (in feet and inches) to
+centimeters.
 '''
-filename="C:/Users/ASUS/PycharmProjects/hello.txt"
-file=open(filename, "r")
-new_list=[]
-new_list=file.read().splitlines()
-print(type(new_list))
-print(new_list)
-file.close()
-# <class 'list'>
-# ['192.168.1.1', '192.168.1.2', '192.168.1.3', '192.168.1.4']
+
+print("Input your height: ")
+h_ft = int(input("Feet: "))
+h_inch = int(input("Inches: "))
+
+h_inch = h_inch + h_ft * 12
+h_cm = round(h_inch * 2.54, 1)
+
+print("Your height is : %d cm." % h_cm)
