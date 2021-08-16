@@ -4,7 +4,7 @@ of the cube of all the positive integers smaller than the specified number.
 '''
 
 def positive(num):
- n = n-1
+ n = num-1
  total = 0
  while n > 0:
    total = total + (n * n * n)
