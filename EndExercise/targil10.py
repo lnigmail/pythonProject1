@@ -1,6 +1,4 @@
-'''
- Write a Python program to convert a byte string to a list of integers
-'''
+
 
 S = "Net4U is the best"
 print("Original string:")

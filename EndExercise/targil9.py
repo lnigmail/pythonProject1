@@ -1,7 +1,4 @@
-'''
-Write a Python program to convert height (in feet and inches) to
-centimeters.
-'''
+
 
 print("Input your height: ")
 h_ft = int(input("Feet: "))
