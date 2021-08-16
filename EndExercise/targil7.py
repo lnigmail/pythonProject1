@@ -1,13 +1,9 @@
-'''
-Write a Python program to solve (x + y) * (x + y).
-Test Data : x = 4, y = 3
-Expected Output : (4 + 3) ^ 2) = 49
-'''
+'''Write a Python program to display your details like name, age, address in
+three different lines.'''
 
-def calculating2(x,y):
-    print("x= " + str(x) + "\ny= " + str(y))
-    print("\nThe return result of (x+y)*(x+y): " + str((x+y)*(x+y)))
+def details():
+    name, age = "Ainshteinit", 47
+    address = "Zion, Homeland, Israel"
+    print("Name: {}\nAge: {}\nAddress: {}".format(name, age, address))
 
-x=int(input("Enter a number: "))
-y=int(input("Enter a number: "))
-calculating2(x,y)
+details()
