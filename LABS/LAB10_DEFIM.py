@@ -126,9 +126,9 @@ def search_url():
     dns_dict = {"www.google.com": "8.8.8.8", "www.facebook.com": "12.12.12.12"}
     u = input("\nEnter a URL to search from dictionary: ")
     if u in dns_dict:
-        print(u + " is already in the dict!\n")
+        print(u + "is already in the dict!\n")
     else:
-        print(u + " isn't inside the dict!\n")
+        print(u + "isn't inside the dict!\n")
 
 
 
@@ -148,7 +148,7 @@ def delete_url():
         dns_dict.pop(url)
         print(dns_dict)
     else:
-        print(url + " isn't inside the dict!\n")
+        print(url + "isn't inside the dict!\n")
 
 
 
