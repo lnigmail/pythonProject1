@@ -166,6 +166,6 @@ def update_ip_dict():
 
 def print_dict():
     dns_dict = {"www.google.com": "8.8.8.8", "www.facebook.com": "12.12.12.12"}
-    print("\nThe new dns_dict:\n------------------\n" + str(dns_dict))
+    print("\nThe dns_dict:\n------------------\n" + str(dns_dict))
 
 
