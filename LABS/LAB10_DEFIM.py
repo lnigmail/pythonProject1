@@ -159,6 +159,7 @@ def update_ip_dict():
     value = input("Enter a apecific address to update the URL: ")
     dns_dict[key] = value
     print(dns_dict[key])
+    print(dns_dict)
 
 
 
