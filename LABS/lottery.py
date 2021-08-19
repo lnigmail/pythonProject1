@@ -37,18 +37,20 @@ for i in range(turns):
         if value == 6:
             print(value)
             prize_money = prize_money + 1000000
-            print("You're won in a minion\n")
+            print("You're won in a MiNion\n")
             sleep(2)
-            print("You win the winner's number: \n")
+            print("You did it...\n")
+            sleep(2)
+            print("You win the WINNER's number  *,*   ^,^     W-O-W........     \n")
 
         elif value == 5:
             print(value)
             prize_money = prize_money + 5000
-            print("Congrats...\n")
+            print("Congrats     *_*     \n")
             sleep(2)
-            print("You did it...\n")
+            print("You did it           *,*     \n")
             sleep(2)
-            print("You're second best :) \n")
+            print("...You're second best        ^_*     \n")
 
         elif value == 4:
             print(value)
@@ -57,7 +59,7 @@ for i in range(turns):
             sleep(1)
             print("r\n")
             sleep(1)
-            print("won in a hundred...\n")
+            print("won in a hundred...  ^_^\n")
 
 
 
@@ -96,7 +98,7 @@ print("Your prize money is: " + str(prize_money) + " NIS\n\n")
 #
 # r
 #
-# won in a hundred...
+# won in a hundred...  ^_^
 #
 #
 #
