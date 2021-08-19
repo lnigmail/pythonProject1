@@ -1,10 +1,10 @@
 from random import randint
 from time import sleep
 counter=1
-print("Welcome to the LOTTERY THRILL...\n\nEach turn cost 3 NIS (;\n")
+print("Welcome to the LOTTERY THRILL...\n\nEach turn cost 3 ILS (;\n")
 spend=int(input("how much money do you have?...\n"))
 turns=spend//3
-print("Your change: " + str(spend%3) + " NIS\n")
+print("Your change: " + str(spend%3) + " ILS\n")
 print("You have " + str(turns) + " turns...")
 prize_money=0
 num=randint(1,6)
@@ -72,15 +72,15 @@ print("          (: ")
 sleep(1)
 print("   (: \n")
 sleep(3)
-print("Your prize money is: " + str(prize_money) + " NIS\n\n")
+print("Your prize money is: " + str(prize_money) + " ILS\n\n")
 #
 # Welcome to the LOTTERY THRILL...
 #
-# Each turn cost 3 NIS (;
+# Each turn cost 3 ILS (;
 #
 # how much money do you have?...
 # 6
-# Your change: 0 NIS
+# Your change: 0 ILS
 #
 # You have 2 turns...
 #
@@ -116,4 +116,4 @@ print("Your prize money is: " + str(prize_money) + " NIS\n\n")
 #           (:
 #    (:
 #
-# Your prize money is: 100 NIS
+# Your prize money is: 100 ILS
