@@ -59,7 +59,7 @@ for i in range(turns):
             sleep(1)
             print("r\n")
             sleep(1)
-            print("won in a hundred...  ^_^\n")
+            print("won in a hundred...  ^_^     \n")
 
 
 
