@@ -71,10 +71,10 @@ def search_ip():
     file = open(filename, "r")
     for i in new_list:
         if i == ip:
-            print("The ip is on the list!!!\n")
+            print("The IP is on the list!!!\n")
             break
         else:
-            print("The ip isn't on the list!\n")
+            print("The IP isn't on the list!\n")
 
 
 
