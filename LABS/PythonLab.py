@@ -32,14 +32,14 @@ def marketing_budget():
         instagram) + " days")
 
     summary=(facebook*100)+(instagram*50)
-    summary1 = summary * 1.17 - budget
+    summary1 = summary * 1.17
+    summary2 = summary * 1.17 - budget
     print("You have to pay: " + str("%.2f" % (summary*1.17)) + " ILS with tax")
-    sum1=facebook*100
-    sum2=instagram*50
-    if summary < budget:
+
+    if summary1 < budget:
         print("\nsuccessfull")
     else:
-        print("\nPlease add: " + str(summary1 * 1.17) + " ILS")
+        print("\nPlease add: " + str(summary2) + " ILS")
 
 
 
