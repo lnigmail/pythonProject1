@@ -23,7 +23,7 @@ def menu():
 
 
 def marketing_budget():
-    print("Pricelisting:\n-----------\nFacebook campaign=100 ILS per day\nInstagram campaign 50 ILS per day\n")
+    print("Pricelisting:\n-----------\nFacebook campaign=100 ILS per day\nInstagram campaign=50 ILS per day\n")
     budget=int(input("How much money do you have?: "))
     facebook=int(input("\nEnter how many days would you like the Facebook campaign to run?"))
     instagram=int(input("\nEnter how many days would you like the Instagram campaign to run?"))
