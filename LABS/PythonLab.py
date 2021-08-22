@@ -3,15 +3,15 @@ from time import sleep
 
 def menu():
     while True:
-        choice = input("Menu:\n----\na. Marketing budjet\nb. Lotto game\n")
-        if choice == "a":
+        choice = input("Menu:\n----\n1.Marketing budget\n2.A Lotto game\n")
+        if choice == "1":
             marketing_budget()
 
-        elif choice == "b":
-            lottery()
+        elif choice == "2":
+            lotto_game()
 
         else:
-            print("Enter a or b only!\n")
+            print("Enter 1 or 2 only!\n")
             continue
         exit = input("\nDo you want to exit? yes/no ")
         if (exit == "yes"):
@@ -43,7 +43,7 @@ def marketing_budget():
 
 
 
-def lottery():
+def lotto_game():
     counter=1
     print("Welcome to the LOTTERY THRILL...\n\nEach turn cost 3 ILS (;\n")
     spend=int(input("how much money do you have?...\n"))
