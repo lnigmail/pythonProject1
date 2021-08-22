@@ -51,7 +51,7 @@ def lottery():
     print("Your change: " + str(spend%3) + " ILS\n")
     print("You have " + str(turns) + " turns...")
     prize_money=0
-    num=randint(1,6)
+
 
     for i in range(turns):
         print("\n\nRolling the dice for round number " + str(i + 1) + "\n----------------------------------\n")
