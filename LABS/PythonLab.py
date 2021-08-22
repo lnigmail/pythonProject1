@@ -52,7 +52,6 @@ def lottery():
     print("You have " + str(turns) + " turns...")
     prize_money=0
 
-
     for i in range(turns):
         print("\n\nRolling the dice for round number " + str(i + 1) + "\n----------------------------------\n")
         sleep(1)
@@ -104,7 +103,6 @@ def lottery():
                 print("r\n")
                 sleep(1)
                 print("won in a hundred...  ^_^     \n")
-
 
 
 
